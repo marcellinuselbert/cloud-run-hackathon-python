@@ -22,7 +22,7 @@ logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-moves = ['F','F','T','T','T','T','T','L','R']
+moves = ['T','T','T','T','T','T','T','T','T','T','T','T','T','T','T','T','T','T','T','T','T']
 
 
 @app.route("/", methods=['GET'])
